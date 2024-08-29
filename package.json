@@ -1,0 +1,16 @@
+{
+  "name": "web-pack",
+  "version": "1.0.0",
+  "description": "basic Web-pack config /TEMPLATE/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "git subtree push --prefix dist origin gh-pages",
+    "install-deps": "npm install --save-dev webpack webpack-cli webpack-dev-server webpack-merge html-webpack-plugin html-loader css-loader style-loader clean-webpack-plugin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
