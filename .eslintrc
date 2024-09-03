@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "wesbos"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "endOfLine": "auto",
+        "tabWidth": 4
+      }
+    ],
+    "import/no-unresolved": 1,
+    "no-shadow":0,
+    "no-unused-vars": 1,
+    "func-names": 1,
+    "no-console": 1
+  }
+}
